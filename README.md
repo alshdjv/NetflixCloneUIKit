@@ -10,3 +10,4 @@ SDK & Frameworks: Swift5, Design Patterns, OOP, UIKit, MVVM architecture, Core D
 Application development is divided into 14 parts:
 1) Get Started. Setup environment. Delete storyboard. Create the MainTaBBarViewController with 4 UINavigationController.
 2) UITableView & UICollectionView
+3) UITableHeaderView. SnapKit packages were installed and used instead of NSLayoutConstraints
