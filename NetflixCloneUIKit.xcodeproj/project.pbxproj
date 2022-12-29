@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		63A19471295D4437004FABE0 /* HeroHeaderUIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63A19470295D4437004FABE0 /* HeroHeaderUIView.swift */; };
+		63A19474295D483E004FABE0 /* SnapKit in Frameworks */ = {isa = PBXBuildFile; productRef = 63A19473295D483E004FABE0 /* SnapKit */; };
 		63CAB56C295C527A0081EBD2 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63CAB56B295C527A0081EBD2 /* AppDelegate.swift */; };
 		63CAB56E295C527A0081EBD2 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63CAB56D295C527A0081EBD2 /* SceneDelegate.swift */; };
 		63CAB570295C527A0081EBD2 /* MainTabBarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63CAB56F295C527A0081EBD2 /* MainTabBarViewController.swift */; };
@@ -20,6 +22,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		63A19470295D4437004FABE0 /* HeroHeaderUIView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeroHeaderUIView.swift; sourceTree = "<group>"; };
 		63CAB568295C527A0081EBD2 /* NetflixCloneUIKit.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NetflixCloneUIKit.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		63CAB56B295C527A0081EBD2 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		63CAB56D295C527A0081EBD2 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -39,6 +42,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				63A19474295D483E004FABE0 /* SnapKit in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -65,13 +69,12 @@
 			isa = PBXGroup;
 			children = (
 				63CAB58E295C71AD0081EBD2 /* Managers */,
-				63CAB58D295C71A30081EBD2 /* Resources */,
 				63CAB58C295C71830081EBD2 /* Models */,
 				63CAB58A295C716A0081EBD2 /* Views */,
 				63CAB58B295C71760081EBD2 /* ViewModels */,
 				63CAB57F295C58C10081EBD2 /* Controllers */,
 				63CAB588295C638B0081EBD2 /* App */,
-				63CAB574295C527B0081EBD2 /* Assets.xcassets */,
+				63CAB58D295C71A30081EBD2 /* Resources */,
 				63CAB576295C527B0081EBD2 /* LaunchScreen.storyboard */,
 				63CAB579295C527B0081EBD2 /* Info.plist */,
 			);
@@ -111,6 +114,7 @@
 			isa = PBXGroup;
 			children = (
 				63CAB58F295C71ED0081EBD2 /* CollectionViewTableViewCell.swift */,
+				63A19470295D4437004FABE0 /* HeroHeaderUIView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -132,6 +136,7 @@
 		63CAB58D295C71A30081EBD2 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
+				63CAB574295C527B0081EBD2 /* Assets.xcassets */,
 			);
 			path = Resources;
 			sourceTree = "<group>";
@@ -159,6 +164,9 @@
 			dependencies = (
 			);
 			name = NetflixCloneUIKit;
+			packageProductDependencies = (
+				63A19473295D483E004FABE0 /* SnapKit */,
+			);
 			productName = NetflixCloneUIKit;
 			productReference = 63CAB568295C527A0081EBD2 /* NetflixCloneUIKit.app */;
 			productType = "com.apple.product-type.application";
@@ -187,6 +195,9 @@
 				Base,
 			);
 			mainGroup = 63CAB55F295C527A0081EBD2;
+			packageReferences = (
+				63A19472295D483E004FABE0 /* XCRemoteSwiftPackageReference "SnapKit" */,
+			);
 			productRefGroup = 63CAB569295C527A0081EBD2 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -216,6 +227,7 @@
 				63CAB585295C59130081EBD2 /* SearchViewController.swift in Sources */,
 				63CAB570295C527A0081EBD2 /* MainTabBarViewController.swift in Sources */,
 				63CAB590295C71ED0081EBD2 /* CollectionViewTableViewCell.swift in Sources */,
+				63A19471295D4437004FABE0 /* HeroHeaderUIView.swift in Sources */,
 				63CAB587295C59390081EBD2 /* DownloadsViewController.swift in Sources */,
 				63CAB56C295C527A0081EBD2 /* AppDelegate.swift in Sources */,
 				63CAB56E295C527A0081EBD2 /* SceneDelegate.swift in Sources */,
@@ -366,7 +378,6 @@
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIStatusBarStyle = "";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -394,7 +405,6 @@
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIStatusBarStyle = "";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -430,6 +440,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		63A19472295D483E004FABE0 /* XCRemoteSwiftPackageReference "SnapKit" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/SnapKit/SnapKit.git";
+			requirement = {
+				branch = develop;
+				kind = branch;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		63A19473295D483E004FABE0 /* SnapKit */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 63A19472295D483E004FABE0 /* XCRemoteSwiftPackageReference "SnapKit" */;
+			productName = SnapKit;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 63CAB560295C527A0081EBD2 /* Project object */;
 }
