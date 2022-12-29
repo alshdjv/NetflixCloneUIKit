@@ -29,18 +29,19 @@ class CollectionViewTableViewCell: UITableViewCell {
         collectionView.dataSource = self
     }
     
-    required init?(coder: NSCoder) {
-        fatalError()
-    }
-    
     override func layoutSubviews() {
         super.layoutSubviews()
         collectionView.frame = contentView.bounds
+    }
+    
+    required init?(coder: NSCoder) {
+        fatalError()
     }
 }
 
 
 extension CollectionViewTableViewCell: UICollectionViewDelegate, UICollectionViewDataSource {
+    
     func collectionView(_ collectionView: UICollectionView, numberOfItemsInSection section: Int) -> Int {
         return 10
     }
