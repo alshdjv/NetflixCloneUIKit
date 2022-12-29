@@ -2,7 +2,8 @@ The Netflix app has been recreated from video tutorials. The author of this educ
 
 You can find this tutor in https://www.linkedin.com/in/amrhossam96/
 
-This application is being developed for educational purposes. I want to improve my skills and knowledge in development.
+This application is being developed for educational purposes. I want to improve my skills and knowledge in development.  
+I configured some of the codes and structures in my personal views.
 
 Besides, application is developed using the UIKit (no storyboard) framework programmatically.  
 SDK & Frameworks: Swift5, Design Patterns, OOP, UIKit, MVVM architecture, Core Data, SnapKit, Networking.
