@@ -11,3 +11,4 @@ Application development is divided into 14 parts:
 1) Get Started. Setup environment. Delete storyboard. Create the MainTaBBarViewController with 4 UINavigationController.
 2) UITableView & UICollectionView
 3) UITableHeaderView. SnapKit packages were installed and used instead of NSLayoutConstraints
+4) UINavigationBar for HeaderView & Section titles for each tableView sections were set up.
