@@ -16,7 +16,7 @@ class HomeViewController: UIViewController {
     }()
     
     let sectionTitles: [String] = [
-        "Trending Movies", "Popular", "Trending Tv", "Upcoming Movies", "Top Rated"
+        "Trending Movies", "Trending Tv", "Popular", "Upcoming Movies", "Top Rated"
     ]
 
     override func viewDidLoad() {
