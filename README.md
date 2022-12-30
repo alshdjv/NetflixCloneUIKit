@@ -14,3 +14,4 @@ Application development is divided into 14 parts:
 3) UITableHeaderView. SnapKit packages were installed and used instead of NSLayoutConstraints
 4) UINavigationBar for HeaderView & Section titles for each tableView sections were set up.
 5) Networking. Fetching data from the https://www.themoviedb.org website.
+6) Networking & Extensions. Calling API for each section of app. Discover Extensions closer. UI bug fixing.
