@@ -6,7 +6,7 @@ This application is being developed for educational purposes. I want to improve 
 I configured some of the codes and structures in my personal views.
 
 Besides, application is developed using the UIKit (no storyboard) framework programmatically.  
-SDK & Frameworks: Swift5, Design Patterns, OOP, UIKit, MVVM architecture, Core Data, SnapKit, Networking.
+SDK & Frameworks: Swift5, Design Patterns, OOP, UIKit, MVVM-C architecture, Core Data, SnapKit, Networking, SDWebImage, GCD
 
 Application development is divided into 14 parts:
 1) Get Started. Setup environment. Delete storyboard. Create the MainTaBBarViewController with 4 UINavigationController.
