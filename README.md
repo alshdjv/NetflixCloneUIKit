@@ -16,3 +16,4 @@ Application development is divided into 14 parts:
 5) Networking. Fetching data from the https://www.themoviedb.org website.
 6) Networking & Extensions. Calling API for each section of app. Discover Extensions closer. UI bug fixing.
 7) UITitleCollectionView are created for CollectionViewCell. Added SDWebImage package to display images on all cells of the poster. Fixed API urls. 
+8) UpcomingViewController + own cell are finished.
