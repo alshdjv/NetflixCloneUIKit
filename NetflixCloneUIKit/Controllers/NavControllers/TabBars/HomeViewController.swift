@@ -31,6 +31,7 @@ class HomeViewController: UIViewController {
         super.viewDidLoad()
         view.addSubview(homeFeedTable)
         
+        // Using two patterns
         homeFeedTable.delegate = self
         homeFeedTable.dataSource = self
         
