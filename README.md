@@ -18,3 +18,4 @@ Application development is divided into 14 parts:
 7) UITitleCollectionView are created for CollectionViewCell. Added SDWebImage package to display images on all cells of the poster. Fixed API urls. 
 8) UpcomingViewController + with his cell are finished.
 9) SearchViewController 1 part is finished. 
+10) SearchViewController is totally finished.
