@@ -17,3 +17,4 @@ Application development is divided into 14 parts:
 6) Networking & Extensions. Calling API for each section of app. Discover Extensions closer. UI bug fixing.
 7) UITitleCollectionView are created for CollectionViewCell. Added SDWebImage package to display images on all cells of the poster. Fixed API urls. 
 8) UpcomingViewController + with his cell are finished.
+9) SearchViewController 1 part is finished. 
