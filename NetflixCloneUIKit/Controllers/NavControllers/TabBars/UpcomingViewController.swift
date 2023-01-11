@@ -24,13 +24,17 @@ class UpcomingViewController: UIViewController {
         navigationController?.navigationBar.prefersLargeTitles = true
         navigationController?.navigationItem.largeTitleDisplayMode = .always
         
-        view.addSubview(upcomingTable)
+        setupUI()
         
         // using two patterns
         upcomingTable.delegate = self
         upcomingTable.dataSource = self
         
         fetchUpcoming()
+    }
+    
+    private func setupUI() {
+        view.addSubview(upcomingTable)
     }
     
     override func viewDidLayoutSubviews() {
@@ -72,6 +76,5 @@ extension UpcomingViewController: UITableViewDelegate, UITableViewDataSource {
     
     func tableView(_ tableView: UITableView, heightForRowAt indexPath: IndexPath) -> CGFloat {
         return 180
-        
     }
 }
